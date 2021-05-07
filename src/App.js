@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Nav from './components/Nav';
 import About from './components/About';
-import './App.css';
+import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -10,7 +13,7 @@ function App() {
   
   return (
     <div>
-      <Nav>
+      <Nav
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
         AboutSelected={AboutSelected}
@@ -19,21 +22,22 @@ function App() {
         setPortfolioSelected={setPortfolioSelected}
         ResumeSelected={ResumeSelected}
         setResumeSelected={setResumeSelected}
-      </Nav>
-      <header className="App-header">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      ></Nav>
+      <main>
+        {contactSelected
+          ? (<><ContactForm></ContactForm></>)
+          : (<></>)}
+        {AboutSelected
+          ? (<><About></About> </>)
+          : (<></>)}
+        {PortfolioSelected
+          ? (<><Portfolio></Portfolio></>)
+          : (<></>)}
+        {ResumeSelected
+          ? (<><Resume></Resume></>)
+          : (<></>)}
+      </main>
+      
     </div>
   );
 }
