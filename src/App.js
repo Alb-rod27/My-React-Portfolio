@@ -10,7 +10,7 @@ function App() {
   const [AboutSelected, setAboutSelected] = useState(true);
   const [PortfolioSelected, setPortfolioSelected] = useState(false);
   const [ResumeSelected, setResumeSelected] = useState(false);
-  
+
   return (
     <div>
       <Nav
@@ -37,7 +37,7 @@ function App() {
           ? (<><Resume></Resume></>)
           : (<></>)}
       </main>
-      
+
     </div>
   );
 }
