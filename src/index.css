@@ -1,4 +1,43 @@
+mmin {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+:root {
+  --primary: #8c54ff;
+  --secondary: #F3A847;
+  --tertiary: #B12704;
+  --light: #fafafa;
+  --dark: #5d657e;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  background: var(--dark);
+  color: var(--light);
+  font-family: 'system-ui';
+
+}
 
 
 
