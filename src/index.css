@@ -8,7 +8,7 @@ mmin {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #5d657e;
+  --dark: #4281a4;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -353,3 +353,18 @@ a {
   background-repeat: no-repeat;
 }
 
+.footer {
+  text-align: center;
+  height:80px;
+  width:100%;
+  position:sticky;
+  bottom:0;
+}
+
+footer img {
+  max-height: 70px;
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
+  position: sticky;
+}

@@ -4,6 +4,9 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import githubLogo from '../src/Assets/logos/github.png';
+import linkedinLogo from '../src/Assets/logos/linkedin.png';
+import stackLogo from '../src/Assets/logos/stack.png';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -37,7 +40,19 @@ function App() {
           ? (<><Resume></Resume></>)
           : (<></>)}
       </main>
-
+          <footer className='footer'>
+            <span>
+              <a href='https://github.com/Alb-rod27' target='_blank' rel='noreferrer'>
+                <img src={githubLogo} className='github-logo' alt='Github Logo'></img>
+              </a>
+              <a href='https://www.linkedin.com/in/ricardo-rodriguez-447812200/' target='_blank' rel='noreferrer'>
+                <img src={linkedinLogo} className='linkedin-logo' alt=''></img>
+              </a>
+              <a href='https://stackoverflow.com/users/14752876/a-rod777' target='_blank' rel='noreferrer'>
+                <img src={stackLogo} className='stack-logo' alt=''></img>
+              </a>
+            </span>
+          </footer>
     </div>
   );
 }
