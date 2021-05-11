@@ -46,10 +46,10 @@ function App() {
                 <img src={githubLogo} className='github-logo' alt='Github Logo'></img>
               </a>
               <a href='https://www.linkedin.com/in/ricardo-rodriguez-447812200/' target='_blank' rel='noreferrer'>
-                <img src={linkedinLogo} className='linkedin-logo' alt=''></img>
+                <img src={linkedinLogo} className='linkedin-logo' alt='Github Logo'></img>
               </a>
               <a href='https://stackoverflow.com/users/14752876/a-rod777' target='_blank' rel='noreferrer'>
-                <img src={stackLogo} className='stack-logo' alt=''></img>
+                <img src={stackLogo} className='stack-logo' alt='Github Logo'></img>
               </a>
             </span>
           </footer>

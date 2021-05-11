@@ -1,42 +1,42 @@
 import React, { useState } from 'react';
 
 function Portfolio() {
-    const [projects] = useState([
+    const [projects] = useState([ 
         {
             name: 'Run-Buddy',
             pageLink: 'https://alb-rod27.github.io/run-buddy/',
             repo: 'https://github.com/Alb-rod27/run-buddy',
-            img: 0
+            img: 0,
         },
         {
             name: 'Musix',
             pageLink: 'https://evanteems.github.io/Musix-Genre/',
             repo: 'https://github.com/evanteems/Musix-Genre',
-            img: 1
+            img: 1,
         },
         {
             name: 'Project-2-Haunted maps',
             pageLink: 'https://github.com/calebp80/Project-2',
             repo: 'https://uclaproject-2.herokuapp.com/',
-            img: 2
+            img: 2,
         },
         {
             name: 'Refactor',
             pageLink: 'https://alb-rod27.github.io/week01-refactor/',
             repo: 'https://github.com/Alb-rod27/week01-refactor',
-            img: 3
+            img: 3,
         },
         {
             name: 'Daily-Planner',
             pageLink: 'https://github.com/Alb-rod27/Daily-planner',
             repo: 'https://alb-rod27.github.io/Daily-planner/',
-            img: 4
+            img: 4,
         },
         {
             name: 'Password-Generator',
             pageLink: 'https://alb-rod27.github.io/password-generator/',
             repo: 'https://github.com/Alb-rod27/password-generator',
-            img: 5
+            img: 5,
         }
     ])
 
