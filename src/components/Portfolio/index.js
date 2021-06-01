@@ -37,6 +37,12 @@ function Portfolio() {
             pageLink: 'https://alb-rod27.github.io/password-generator/',
             repo: 'https://github.com/Alb-rod27/password-generator',
             img: 5,
+        },
+        {
+            name: 'Memonto',
+            pageLink: 'https://rocky-shelf-98146.herokuapp.com/',
+            repo: 'https://github.com/davevebber/memonto',
+            img: 6,
         }
     ])
 

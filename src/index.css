@@ -353,11 +353,20 @@ a {
   background-repeat: no-repeat;
 }
 
+.project6{
+  background-image: url(./Assets/images/memonto.JPG);
+  height: 50vh;
+  width: 60vh;
+  left: 1%;
+  right: 1%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .footer {
   text-align: center;
   height:80px;
   width:100%;
-  position:sticky;
   bottom:0;
 }
 
